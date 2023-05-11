@@ -2,6 +2,9 @@ import { Routes, Route } from 'react-router-dom'
 import ManliestThings from './pages/ManliestThings/ManliestThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SillyThings'
+import MusicalThings from './pages/MusicalThings/MusicalThings'
+import ToolThings from './pages/ToolThings/ToolThings'
+import CatThings from './pages/CatThings/CatThings'
 import Landing from './pages/Landing/Landing'
 
 const App = () => {
