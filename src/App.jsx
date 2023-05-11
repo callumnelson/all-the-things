@@ -62,6 +62,30 @@ const App = () => {
     },
   ]
 
+  const callumsThings = [
+    {
+      name: "guitars",
+      image: "https://imgs.xkcd.com/comics/guitar.png",  
+      attributes: ["beautiful", "happy", "sad", "pleasant"],
+    },
+  ]
+
+  const nicholasssssssThings = [
+    {
+      name: "tools",
+      image: "https://imgs.xkcd.com/comics/tooltypes.png",  
+      attributes: [`can't remember categories`, "why is naming stuff so difficult?", `please don't @ me`],
+    },
+  ]
+
+  const suzannesThings = [
+    {
+      name: "cats",
+      image: "https://imgs.xkcd.com/comics/cats.png",  
+      attributes: ["beautiful", "fuzzy", "sweetheart", "pleasant"],
+    },
+  ]
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
@@ -77,6 +101,18 @@ const App = () => {
       <Route
         path="/the-silly-things"
         element={<SillyThings things={huntersThings} />}
+      />
+      <Route
+        path="/the-musical-things"
+        element={<MusicalThings things={callumsThings} />}
+      />
+      <Route
+        path="/the-tool-things"
+        element={<ToolThings things={nicholasssssssThings} />}
+      />
+      <Route
+        path="/the-cat-things"
+        element={<CatThings things={suzannesThings} />}
       />
     </Routes>
   )
